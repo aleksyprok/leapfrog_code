@@ -1,5 +1,5 @@
 # Leapfrog code readme
-This Fortran 90 code solves the cold ideal MHD equations using the leapfrog trapezoidal algorithm (see [1]).
+This Fortran 90 code solves the cold ideal MHD equations using the leapfrog trapezoidal algorithm (see [1]). For more information on how the code works see Manual/manual.pdf.
 
 The makefile is currently setup with the gfortran compiler. To compile, type make, this will output an executable called leapfrog.exe which can be run using ./leapfrog.exe on the terminal.
 
