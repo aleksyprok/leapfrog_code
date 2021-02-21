@@ -144,7 +144,7 @@ for n in range(file_number):
 
 	ax = fig.add_subplot(111, projection='3d')
 
-	get_xyz('u_perp1')
+	get_xyz(var)
 	X, Z = np.meshgrid(x, z)
 	var1 = getdata(n, var)
 	surf = ax.plot_surface(X, Z, var1[:,iy0,:], cmap=cm.cool)
