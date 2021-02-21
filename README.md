@@ -17,6 +17,6 @@ shared_data.f90 declares the global variables which are used across the code.
 
 update_variables.f90 carries out a single step in time of the leapfrog algorithm.
 
-In Python/surf.py shows how a surface plot video of a variable can be made using ouputted simulation data.
+Python/surf.py shows how a surface plot video of a variable can be made using ouputted simulation data.
 
 [1] Rickard, G. J., and A. N. Wright, Alfven resonance excitation and fast wave propagation in magnetospheric waveguides, J. Geophys. Res., 99, 13455, 1994.
