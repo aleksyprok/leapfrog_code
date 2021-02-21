@@ -5,4 +5,11 @@ The makefile is currently setup with the gfortran compiler. To compile, type mak
 
 Note that the command make clean will remove all .o, .mod, .exe files and empty the contents of the Data and Figures directories.
 
+control.f90 contains the modules mostlikely to be edited by the user such as set_initial_conditions, set_boundary_conditions and control_variables.
+diagnotiscs.f90 contains modules associated with outputting the data.
+leapfrog.f90 is the main file where the modules are run.
+setup.f90 inititalises the array and calculate the dt required for the CFL condition to be satisfied.
+shared_data.f90 declares the global variables which are used across the code.
+update_variables.f90 carries out a single step in time of the leapfrog algorithm.
+
 [1] Rickard, G. J., and A. N. Wright, Alfven resonance excitation and fast wave propagation in magnetospheric waveguides, J. Geophys. Res., 99, 13455, 1994.
